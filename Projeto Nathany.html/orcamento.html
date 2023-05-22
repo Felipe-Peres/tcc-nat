@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin"><link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/ font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBxm8fW90+nuLcSKlbmrPcLaOT
+        92x01BIsZ+ywDWZCvqsWgccV3gFoRBv®z+8dLJgyAHIhR35VZc20M/gI1w=="
+            crossorigin=" anonymous"
+            referrerpolicy="no-referrer"/>
+        <link rel="icon" type="image/png" href="icone.png"/>
+        <link rel="stylesheet" href="orcamento.css"/>
+    </head>
+    <title>orçamento</title>
+
+    <body>
+
+        <div class="hero">
+
+           <h2>Nat Projetos</h2>
+            
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Orçamento</b></legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div><br>
+                        <div class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelInput">Endereço</label>
+                        </div>
+                        <br>
+                        <p>Tamanho da empresa:</p>
+                        <input type="radio" id="pequeno" name="genero" value="pequeno" required>
+                        <label for="pequeno">Pequeno</label>
+                        <br>
+                        <input type="radio" id="medio" name="genero" value="medio" required>
+                        <label for="medio">Medio</label>
+                        <br>
+                        <input type="radio" id="grande" name="tamanho" value="grande" required>
+                        <label for="grande">Grande</label>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="briefing" id="briefing" class="inputUser" required>
+                            <label for="briefing" class="labelInput">Briefing pequeno do projeto</label>
+                        </div><br>
+                        <p>Data desejada para entrega do projeto:(aproximadamente)</p>
+                        <input type="date" name="data_nascimento" id="data_nascimento" class="data" required>
+                        <br><br>
+                        
+                        <input type="submit" name="submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

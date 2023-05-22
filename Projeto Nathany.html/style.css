@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("backgroundn.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: aliceblue;
+}
+
+ h1 {
+    color: aliceblue;
+    font-size: 75px;
+}
+h2 {
+    margin-top: 0px;
+    margin-left: 24%;
+    padding: 2% 15%;
+    color: lightpink;
+    font-size: 70px;
+}
+h4 {
+    color: lightpink;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.carrosel {
+    position: relative;
+    width: 400px;
+    margin-right: 8%;
+    margin-left: auto;
+    margin-top: 8%;
+    height: 500px;
+    border: solid white;
+    border-radius: 15%;
+    background-color:rgba(255, 182, 193, 0.562);
+    opacity: 1;
+}
+.letra ,h3{
+    color: black;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.letra ,p ,li,a{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(34, 34, 34);
+    line-height: 100px;
+
+}
+.letra ,li{
+    text-align: start;
+    margin-left:90px ;
+}
+.letra1 ,p{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(34, 34, 34);
+        line-height: 30px;
+    
+}
+.item :active {
+    text-align: center;
+    width: 400px;
+    margin-right: 8%;
+    margin-left: auto;
+    margin-top: 18%;
+    height: auto;
+    
+}
+.item {
+    text-align: center;
+    height: 500px;
+}
+.carrosel :hover {
+    opacity: 0.9;
+}
+.letra ,a{
+    
+    text-decoration: none;
+    line-height: 150px;
+}
+.letra ,a:hover{
+    
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+#content >a{
+    color: #000000;
+    padding: 20px 30px;
+    border: solid 1px black;
+    border-radius: 30px;
+    opacity: 1.1;
+    background-color: lightpink;
+    text-decoration: underline ;
+    text-transform: uppercase
+}
+#content >a:hover {
+    font-weight: bold;
+    border-width: 3px;
+}

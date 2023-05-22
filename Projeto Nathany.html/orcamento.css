@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("backgroundn.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+fieldset{
+    border: 3px solid lightpink;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white
+}
+legend{
+    border: 1px solid lightpink;
+    padding: 10px;
+    text-align: center;
+    background-color: lightpink;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.data{
+    width: 100%;
+    color: lightpink;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: lightpink;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right,lightpink, lightpink);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,lightpink,lightpink);
+}
+h2 {
+    margin-top: 0px;
+    margin-left: 24%;
+    padding: 2% 15%;
+    color: lightpink;
+    font-size: 70px;
+}
